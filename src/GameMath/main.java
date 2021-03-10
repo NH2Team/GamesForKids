@@ -5,12 +5,18 @@
  */
 package GameMath;
 
+import SQL.ConnectSQL;
+import java.sql.SQLException;
+
 /**
  *
  * @author nhand
  */
 public class main {
-    public static void main(String[] args){
-        System.out.println("da");
+    public static void main(String[] args) throws SQLException{
+        ConnectSQL csql = new ConnectSQL();
+        String sql = "INSERT INTO ACCOUNT VALUES('hayko','hayko')";
+        System.out.println(sql);
+        System.out.println(csql.updateData(sql));
     }
 }
