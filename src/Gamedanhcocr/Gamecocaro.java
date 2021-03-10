@@ -5,13 +5,21 @@
  */
 package Gamedanhcocr;
 
+import SQL.ConnectSQL;
+import java.sql.SQLException;
+
 /**
  *
  * @author Hai
  */
 public class Gamecocaro {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         System.out.println("Hello Nhan");
+        ConnectSQL csql = new ConnectSQL();
+        String sql = "INSERT INTO ACCOUNT VALUES('hayko','hayko')";
+        System.out.println(sql);
+        System.out.println(csql.updateData(sql));
     }
+    
     
 }
