@@ -22,5 +22,6 @@ public class main {
         System.out.println(csql.updateData(sql));
         //Them cai test nuwax xem nao
         System.out.println(ClassTest.Random(10));
+        //Them lan 10:44
     }
 }
