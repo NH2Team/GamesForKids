@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package English;
+package GameEnglish;
 
 /**
  *
@@ -11,6 +11,6 @@ package English;
  */
 public class TestGame {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        System.out.println("lo con cac");
     }
 }
