@@ -5,6 +5,7 @@
  */
 package GameMath;
 
+import SQL.ClassTest;
 import SQL.ConnectSQL;
 import java.sql.SQLException;
 
@@ -15,8 +16,11 @@ import java.sql.SQLException;
 public class main {
     public static void main(String[] args) throws SQLException{
         ConnectSQL csql = new ConnectSQL();
-        String sql = "INSERT INTO ACCOUNT VALUES('hayko','hayko')";
+        //String sql = "INSERT INTO ACCOUNT VALUES('hayko','hayko')";
+        String sql = "DELETE FROM ACCOUNT WHERE USERNAME='hayko'";
         System.out.println(sql);
         System.out.println(csql.updateData(sql));
+        //Them cai test nuwax xem nao
+        System.out.println(ClassTest.Random(10));
     }
 }
