@@ -9,8 +9,8 @@ package Gamedanhcocr;
  *
  * @author Hai
  */
-public class hdgsdf {
+public class test {
     public static void main(String[] args) {
-        System.out.println("dfs");
+        System.out.println("alo");
     }
 }
