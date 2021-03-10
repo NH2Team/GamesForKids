@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package English;
+package GameMath;
 
 /**
  *
- * @author Hải
+ * @author nhand
  */
-public class TestGame {
-    public static void main(String[] args) {
-        System.out.println("Hello");
+public class main {
+    public static void main(String[] args){
+        System.out.println("da");
     }
 }
